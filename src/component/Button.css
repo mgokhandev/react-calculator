@@ -21,7 +21,17 @@
   margin-right: 0;
 }
 
+.component-button.orangeEqual button {
+  background-color: #f5923e;
+  color: white;
+}
+
 .component-button.orange button {
   background-color: #f5923e;
   color: white;
+}
+
+.component-button.orange button:focus {
+  background-color: white;
+  color: #f5923e;
 }
